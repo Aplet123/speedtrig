@@ -15,6 +15,25 @@
 .answer {
 	color: red;
 }
+.controls {
+	position: absolute;
+}
+.hidden {
+	display: none !important;
+}
+.optionbox {
+	display: block;
+	position: fixed;
+	z-index: 1;
+	top: 100px;
+	border: 2px solid blue;
+	background-color: #FFFFDD;
+	padding: 10px;
+	border-radius: 5px;
+}
+.inline {
+	display: inline;
+}
 @media all {
 	.break {
 		display: block;

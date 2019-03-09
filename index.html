@@ -11,8 +11,18 @@
   	<script src="options.js"></script>
   	<script src="gen.js"></script>
   	<script defer src="render.js"></script>
+  	<script defer src="ui.js"></script>
   </head>
   <body>
+  	<div class="hidden optionbox" id="options">
+  		<p class="inline">Number of Questions:</p>
+  		<input id="qNum" type="number" class="inline">
+  		<button id="ophide">Hide Options</button>
+  	</div>
+  	<div class="controls">
+		<button id="anscroll">Scroll To Answers</button>
+		<button id="opbtn">Options</button>
+  	</div>
   	<div class="wrapper" id="problems">
   		<div class="header">
   			<p>Speed Trig Practice</p>
